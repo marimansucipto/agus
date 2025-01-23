@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: linear-gradient(to bottom, #80e030, #fad0c4);
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 3rem 1rem;
+            background: #ffffffdd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header img {
+            border-radius: 50%;
+            width: 180px;
+            height: 180px;
+            border: 5px solid #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 1rem 0 0.5rem;
+            font-size: 2.5rem;
+            color: #38c4dd;
+            animation: slideInLeft 1s ease-out;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #555;
+            animation: slideInRight 1s ease-out;
+        }
+        section {
+            padding: 3rem 1.5rem;
+            margin: 1rem auto;
+            max-width: 800px;
+            background: #ffffffdd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            font-size: 2rem;
+            color: #35d1ec;
+            border-bottom: 2px solid #689fe7;
+            display: inline-block;
+            margin-bottom: 1rem;
+            animation: slideInLeft 1.5s ease-out;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #fefefe;
+            margin: 0.5rem 0;
+            padding: 0.75rem 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in-out;
+        }
+        .contact {
+            text-align: center;
+        }
+        .contact a {
+            text-decoration: none;
+            color: #40c9f3;
+            font-weight: bold;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #ffffffdd;
+            margin-top: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Keyframes for animations */
+        @keyframes slideInLeft {
+            from {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Section 1: Foto dan Nama -->
+    <header>
+        <img src="WhatsApp Image 2025-01-23 at 09.23.50.jpeg" alt="WhatsApp Image 2025-01-23 at 09.23.50.jpeg">
+        <h1>Banu Farras Kurnanda</h1>
+        <p>Player Esport | Designer | Futsal player</p>
+    </header>
+
+    <!-- Section 2: Pengalaman -->
+    <section>
+        <h2>Pengalaman</h2>
+        <ul>
+            <li>Juara 1 indosat cup (2024)</li>
+            <li>Juara 2 Futsal cup (2022)</li>
+            <li>Desain spanduk 17 agustus </li>
+        </ul>
+    </section>
+
+    <!-- Section 3: Kesukaan -->
+    <section>
+        <h2>Kesukaan Saya</h2>
+        <ul>
+            <li>Menggambar</li>
+            <li>Bermain musik</li>
+            <li>Bermain game</li>
+            <li>Bermain Futsal</li>
+        </ul>
+    </section>
+
+    <!-- Section 4: Project -->
+    <section>
+        <h2>Project yang Pernah Saya Buat</h2>
+        <ul>
+            <li><strong>animasi Website:</strong> Website animasi pribadi untuk menunjukkan karya saya</li>
+            <li><strong>Absensi Website</strong> website yang saya buat lalu di up ke git hub</li>
+            <li><strong>Desainer spanduk 17 agustus:</strong> Spanduk untuk 17 an</li>
+        </ul>
+    </section>
+
+    <!-- Section 5: Testimoni -->
+    <section>
+        <h2>Testimoni Teman Terdekat</h2>
+        <ul>
+            <li>"Sangat baik dan ramah!" - Prima</li>
+            <li>"Selalu membawa energi positif di tim." - Paqih</li>
+            <li>"Kreatif dan penuh ide." - Ajo</li>
+        </ul>
+    </section>
+
+    <!-- Section 6: Contact Me -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="aguslapar.email@example.com">aguslapar.email@example.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+    </section>
+
+    <!-- Section 7: Copyright -->
+    <footer>
+        <p>&copy; 2025 Nama Saya. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
